@@ -11,7 +11,7 @@ uniform float u_time;
 
 void main() {
     vec3 colorBlack = vec3(.0);
-    vec3 colorBlue = vec3(0, 1, 0);
+    vec3 colorBlue = vec3(0, 0, 1);
     vec3 colorRed = vec3(1, 0, 0);
     vec3 result = colorBlack;
 
