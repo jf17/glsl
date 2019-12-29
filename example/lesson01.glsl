@@ -29,6 +29,7 @@ void main() {
     }
 
     // функция mix смешивает два входящих обьекта в указаной пропорции ( например один к трём)
+    // тут пропорция смешивание зависит от координаты пикселя 
     vec3 colorMix = mix(colorBlue,colorRed,st.x);
     
     if(st.y < rightCoord && st.y > leftCoord &&
